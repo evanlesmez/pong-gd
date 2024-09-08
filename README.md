@@ -1,8 +1,8 @@
 # Pong
 
 ## Todos
-Make a movable player  
-Make a second movable player  
+Clone nvim config
+Clamp players to edge of screen
 Make the ball  
 Make the ball move  
 Make the ball bounce off of a player  
@@ -17,8 +17,15 @@ Make quit game
 Make it more unique than pong ideas:  
     Shootable rockets to hit the ball that recharge on hitting the ball  
     To move, you launch a harpoon that latches to walls and then reel yourself in  
+    Spaceship movement with momentum
+    Gravity jumping and wall jumping
+        - Melee like 1v1 soccer game
     Change the art  
 
 ## Notes
 
 ## Done
+Make a movable player  
+Make a second movable player  
+Figure out neovim Godot on windows
+    https://mb-izzo.github.io/nvim-godot-solution/  
