@@ -6,3 +6,8 @@
 
 [node name="Player" parent="." instance=ExtResource("1_umt65")]
 position = Vector2(87, 308)
+
+[node name="Player2" parent="." instance=ExtResource("1_umt65")]
+position = Vector2(1022, 310)
+move_up_action = "move_up_p2"
+move_down_action = "move_down_p2"

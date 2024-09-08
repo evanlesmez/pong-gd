@@ -1,8 +1,6 @@
 # Pong
 
 ## Todos
-Clone nvim config
-Clamp players to edge of screen
 Make the ball  
 Make the ball move  
 Make the ball bounce off of a player  
@@ -29,3 +27,5 @@ Make a movable player
 Make a second movable player  
 Figure out neovim Godot on windows
     https://mb-izzo.github.io/nvim-godot-solution/  
+Clone nvim config
+Clamp players to edge of screen

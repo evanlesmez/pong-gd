@@ -18,3 +18,4 @@ texture = SubResource("PlaceholderTexture2D_empy1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("RectangleShape2D_ti3mv")
+debug_color = Color(0, 0.646042, 0.753071, 0.42)
