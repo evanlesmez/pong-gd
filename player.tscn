@@ -8,14 +8,12 @@ size = Vector2(8, 24)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ti3mv"]
 size = Vector2(8, 24)
 
-[node name="Player" type="Node2D"]
+[node name="Player" type="Area2D"]
 script = ExtResource("1_v6c4j")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = SubResource("PlaceholderTexture2D_empy1")
 
-[node name="Area2D" type="Area2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_ti3mv")
 debug_color = Color(0, 0.646042, 0.753071, 0.42)

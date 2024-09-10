@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bc3csxnbwk2qh"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_6p3if"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ygmp6"]
+radius = 3.0
+
+[node name="Ball" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(4.52954, -4.78371)
+texture = SubResource("PlaceholderTexture2D_6p3if")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ygmp6")

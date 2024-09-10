@@ -1,10 +1,8 @@
 # Pong
 
 ## Todos
-Make the ball  
-Make the ball move  
-Make the ball bounce off of a player  
-Make walls that the ball bounces off of  
+Make visible walls that the ball bounces off of  
+Make the ball launch at an angle
 Make the goals  
 Count score on scoring the goal  
 Reset the ball to the middle of the screen on start and goal scored  
@@ -29,3 +27,6 @@ Figure out neovim Godot on windows
     https://mb-izzo.github.io/nvim-godot-solution/  
 Clone nvim config
 Clamp players to edge of screen
+Make the ball
+Make the ball move  
+Make the ball bounce off of a player  
